@@ -1,0 +1,9 @@
+<h2>Details</h2>
+<ul>
+<li>Task number {{myTask.id}} is {{myTask.task}}</li>
+<li>It will take {{myTask.time}}</li>
+<li>Description: {{myTask.description}}</li>
+<li>Items I will need: {{myTask.items}}</li>
+</ul>
+<a [routerLink]="['/edit', myTask.id]"><button class="buttons">Edit</button></a>
+<button (click)='onClickDelete(myTask.id)' class="buttons" >Delete</button>

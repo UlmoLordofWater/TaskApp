@@ -1,0 +1,17 @@
+<h2>Add Task</h2>
+<label>Task:</label>
+<input [(ngModel)]='newTask.task'>
+<br>
+<h2>Details</h2>
+<br>
+<label>Time: </label>
+<input [(ngModel)]='newTask.time'>
+<br>
+<label>Description:</label>
+<textarea [(ngModel)]='newTask.description' rows="6" cols="60"></textarea>
+<br>
+<label>Items:</label>
+<textarea [(ngModel)]='newTask.items' rows="6" cols="60"></textarea>
+<br>
+<button (click)='addTask()' class="buttons">Add</button>
+
