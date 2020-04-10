@@ -1,0 +1,32 @@
+{
+  "task": [
+    {
+      "id": 1,
+      "task": "Laundry",
+      "time": "3 hrs",
+      "description": "put dirty laundry in washer, change to dryer when done, fold when finished drying",
+      "items": "detergent, laundry basket, stain remover, dryer sheets"
+    },
+    {
+      "task": "Cleaning",
+      "time": "4 hr",
+      "description": "big job",
+      "items": "things",
+      "id": 2
+    },
+    {
+      "task": "Vaccuum",
+      "time": "time",
+      "description": "vacuuming",
+      "items": "vacuum",
+      "id": 3
+    },
+    {
+      "task": "Clean Car",
+      "time": "2 hrs",
+      "description": "Washing Wheels, body and buffing paint",
+      "items": "hose, soap, scrubby",
+      "id": 4
+    }
+  ]
+}

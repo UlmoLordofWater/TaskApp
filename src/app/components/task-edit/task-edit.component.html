@@ -1,0 +1,16 @@
+<h2>Edit Task</h2>
+<label>Task:</label>
+<input [(ngModel)]='editTask.task'>
+<br>
+<h2>Details</h2>
+<label>Time:</label>
+<input [(ngModel)]='editTask.time'>
+<br>
+<label>Description:</label>
+<textarea [(ngModel)]='editTask.description' rows="6" cols="60"></textarea>
+<br>
+<label> Items:</label>
+<textarea [(ngModel)]='editTask.items' rows="6" cols="60"></textarea>
+<br>
+<button (click)='saveTask()' class="buttons">Save</button>
+
